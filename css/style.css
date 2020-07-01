@@ -1,0 +1,108 @@
+body{
+  background: #333;
+  color: #FFFFFF;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+.navbar{
+  border-bottom: 1px solid #008ed6;
+  background: #292b2c;
+  opacity: 0.8;
+
+}
+
+#home-section{
+  background: url(../img/a.jpg) no-repeat center top;
+  background-size: cover;
+  min-height: 700px;
+  background-attachment: fixed;
+
+}
+.img-overlay{
+  background: rgba(0,0,0,0.7);
+  min-height: 700px;
+
+}
+.head-content {
+  margin: 100px 0px 0px 0px;
+}
+
+.icon{
+  background: #FFFFFF;
+  color: #007BFF;
+  border-radius: 4px;
+  font-size: 22px;
+  padding: 5px;
+  margin-top: 34px;
+  font-size: 28px;
+}
+
+
+.falto {
+    padding-top: 140px;
+}
+  .fillUp {
+    margin-top: 30px;
+  }
+.icon-Explore {
+    padding: 8px;
+    margin: 18px 0px 0px 0px;
+    border-radius: 6px;
+    font-size: 22px;
+}
+.explore1{
+  padding: 25px;
+}
+.explore2{
+  padding: 45px;
+}
+.explore-img {
+  height: 300px;
+  margin: 5px 0px 0px 0px;
+  border-radius: 10px;
+
+}
+
+.img-1{
+  margin-top: 65px;
+}
+
+.creat1{
+  padding: 25px;
+}
+.creat2{
+  padding: 25px;
+}
+.icon-creat {
+  padding: 4px;
+  border-radius: 4px;
+  margin: 10px 20px 0px 0px;
+  font-size: 28px;
+}
+
+.img-2{
+  margin-top: 90px;
+}
+
+.img-3{
+  margin-top: 70px;
+}
+
+
+
+
+
+@media(max-width: 768px){
+  #home-section h1{
+    font-size: 35px;
+  }
+  .fillUp {
+      margin: 0px 0px 60px 0px;
+}}
+@media(max-width: 992px){
+  .fillUp {
+      margin: 0px 0px 60px 0px;
+}}
